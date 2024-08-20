@@ -1,0 +1,272 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #place {
+    background-image: url("../images/home/background.jpg"); /* Adjust path if necessary */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  /* Header */
+  header {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffffff 3px solid;
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding_logo {
+    float: left;
+  }
+  
+  header #branding_logo h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .highlight, header .current a {
+    color: #00b894;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Slideshow */
+  .slideshow-container {
+    max-width: 640px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Slideshow Buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev {
+    left: 0; /* Align the prev button to the left */
+    border-radius: 3px 0 0 3px;
+    margin-left: 5px; /* Add a little margin from the edge */
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Slideshow Text */
+  .text {
+    color: white;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Slideshow Number Text */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Slideshow Dots */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Slideshow Fade Animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+  }
+  
+  /* Responsive Slideshow Text */
+  @media only screen and (max-width: 300px) {
+    .prev, .next, .text {font-size: 11px;}
+  }
+  
+  /* Card Styles */
+  .card, .black_card {
+    /* float: inline-end; */
+    padding: 3px;
+    align-self: auto;
+    background-color: #1d1d1d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 735px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color: white;
+  }
+  
+  .black_card {
+    background-color: #2d2d2d;
+  }
+  
+  .game_description {
+    margin: 20px;
+  }
+  
+  .game_description p {
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  
+  .game_price h1, .game_header h1 {
+    text-align: center;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #00b894;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  /* Footer */
+  footer {
+    clear: both;
+    background-color: #1d1d1d;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-weight: bold;
+  }
+  button {
+    background-color: #28a745; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding for size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Keep inline with other elements */
+    font-size: 16px; /* Increase font size */
+    margin: 10px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

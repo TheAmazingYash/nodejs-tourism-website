@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/places.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script type="text/javascript" src="scripts/main.js"></script>
+        <title>Book Tickets</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding_logo">
+                    <h1><span class="highlight">Mera Bharat </span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li ><a href="index.html">HOME</a></li>
+                        <li class="current"><a >BOOKING</a></li>
+                        <li href="social.html"><a>ABOUT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <br>
+        <br>
+        <section class="card">
+        <div class="container">
+            <section id="account_card_flexbox_container">
+                <div id="login_form_flexbox_container">
+                    <form action="/booking" method="POST">
+					<h1><u>Tickets Payment</u></h1>
+                    <p>You would like to purchase Tickets?</p>
+                    <p>Please Fill all the information below to continue transaction</p>
+                    <h1><u>Personal Details</u></h1>
+                        <label for="name">Fullname:</label>
+                        <input type="text" name="name" placeholder="Enter your fullname"><br><br>
+                        <label for="tickets">NO. of Tickets:</label>
+						<select id="tickets" name="tickets">
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						  <option value="5">5</option>
+						  <option value="6">6</option>
+						  <option value="7">7</option>
+						  <option value="8">8</option>
+						  <option value="9">9</option>
+						  <option value="10">10</option> 
+						</select><br><br>
+                     
+						<label for="places">Choose your destination:</label>
+						<select id="places" name="places">
+						  <option value="mumbai">Mumbai</option>
+						  <option value="delhi">Delhi</option>
+						  <option value="kerela">Kerela</option>
+						  <option value="agra">Agra</option>
+						  <option value="ladakh">Ladakh</option>
+						  <option value="jaipur">Jaipur</option>
+						  <option value="darjeeling">Darjeeling</option>
+						</select><br><br>
+						
+						<label for="start_date">From:</label>
+                        <input type="date" name="start_date">
+                        
+						<label for="end_date">Till:</label>
+                        <input type="date" name="end_date"><br><br>
+                        
+						<label for="payment">Choose mode of payment:</label>
+						<select id="payment" name="payment">
+						  <option value="credit/debit">Credit/Debit Card</option>
+						  <option value="upi">UPI</option>
+						  <option value="netbanking">Netbanking</option>
+						  <option value="cod">Cash on delivery</option>
+						  </select>
+						  <br>
+						  <br>
+                        
+					<h1><u>Billing Details</u></h1>
+                    <p>We require your address to generate a bill, We ensure great privacy for our customers!</p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Enter your email">
+                        <br>
+                        <br>
+                        <label for="phone">Phone No.:</label>
+                        <input type="tel" name="phone" placeholder="Enter your phone number">
+                        <br>
+						<br>
+						<label for="address1">Address Line 1:</label>
+                        <input type="text" name="address1" placeholder="Enter your address">
+                        <br>
+                        <br>
+                        <label for="address2">Address Line 2:</label>
+                        <input type="text" name="address2" placeholder="Enter your address">
+                        <br>
+                        <br>
+                        
+                        <label for="pin">Pincode:</label>
+                        <input type="text" name="pin" placeholder="Enter your area pincode">
+                        <br>
+                        <br>
+                        <button type="submit" name="submit">Confirm Order</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        </section>
+
+		
+		
+		
+        <div class="container">
+            <section class="card" id="privacy_policy">
+                <div class="container">
+                    <div class="card_flexbox_container">
+                        <h1><u>Privacy Policy</u></h1>
+                        <p>We at  greatly Mera Bharat value your privacy. No cookies or personal data of any kind is shared with advertisers. We will always keep you up to date if there are any changes regarding our privacy policy.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>Mera Bharat an online travel booking website, Copyright &copy; 2022 <br>
+                
+            </p>
+        </footer>
+    </body>
+</html>
