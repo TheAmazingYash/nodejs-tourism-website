@@ -27,7 +27,7 @@ Mera Bharat is an online travel booking website that allows users to book ticket
 - **Booking**: Users can book tickets by providing personal and payment details.
 - **Responsive Design**: The website is designed to be responsive and user-friendly.
 
-  ## Using Your Own Images
+## Using Your Own Images
 
 Due to the large size of the image files, the `img` folder has not been included in this repository.
 
@@ -58,7 +58,7 @@ public/
 ---others---
 │   └── tick.gif
 
-
+```
 
 ## Installation
 
@@ -69,6 +69,7 @@ public/
 - MongoDB
 
 ##Technologies Used
+
 ###Node.js: JavaScript runtime environment.
 ###Express.js: Web framework for Node.js.
 ###MongoDB: NoSQL database.
@@ -76,5 +77,6 @@ public/
 ###HTML/CSS: For front-end structure and styling.
 
 ##License
+
 This project is licensed under the MIT License.
 
