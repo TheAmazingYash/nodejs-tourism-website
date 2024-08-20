@@ -68,15 +68,12 @@ public/
 - npm (Node Package Manager)
 - MongoDB
 
-##Technologies Used
 
-###Node.js: JavaScript runtime environment.
-###Express.js: Web framework for Node.js.
-###MongoDB: NoSQL database.
-###Mongoose: ODM library for MongoDB.
-###HTML/CSS: For front-end structure and styling.
+## Technologies Used
 
-##License
-
-This project is licensed under the MIT License.
+- Node.js: JavaScript runtime environment.
+- Express.js: Web framework for Node.js.
+- MongoDB: NoSQL database.
+- Mongoose: ODM library for MongoDB.
+- HTML/CSS: For front-end structure and styling.
 
